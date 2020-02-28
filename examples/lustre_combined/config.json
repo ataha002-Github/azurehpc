@@ -64,7 +64,8 @@
                 "localuser",
                 "pbsclient",
                 "nfsclient",
-                "addmpich"
+                "addmpich",
+                "cndefault"
             ]
         },
         "lustre": {
@@ -124,6 +125,11 @@
             "args": [
                 "variables.lustre_version"
             ],
+            "sudo": true
+        },
+        {
+            "script": "cndefault.sh",
+            "tag": "cndefault",
             "sudo": true
         },
         {
