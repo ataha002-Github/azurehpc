@@ -16,14 +16,14 @@ if [ "$AZHPC_VMSIZE" = "" ]; then
     exit 1
 fi
 
-case "$AZHPC_VMSIZE" in
-    Standard_D32s_v3 | Standard_L32s_v2 )
-        module load mpi/hpcx-v2.5.0
-        ;;
-    *)
+#case "$AZHPC_VMSIZE" in
+#    Standard_D16s_v3 | Standard_D32s_v3 | Standard_L32s_v2 )
+#        module load mpi/hpcx-v2.5.0
+#        ;;
+#    *)
         module load mpi/mpich-3.2-x86_64
-        ;;
-esac
+#        ;;
+#esac
 
 CORES=$(cat $PBS_NODEFILE | wc -l)
 NODES=$(cat $PBS_NODEFILE | sort -u)
