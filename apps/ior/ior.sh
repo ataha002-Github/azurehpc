@@ -17,7 +17,7 @@ if [ "$AZHPC_VMSIZE" = "" ]; then
 fi
 
 case "$AZHPC_VMSIZE" in
-    standard_hb60rs | standard_hc44rs | standard_hb120rs_v2 )
+    Standard_D32s_v3 | Standard_L32s_v2 )
         module load mpi/hpcx-v2.5.0
         ;;
     *)
