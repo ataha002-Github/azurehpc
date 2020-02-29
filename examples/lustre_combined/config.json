@@ -45,8 +45,7 @@
                 "localuser",
                 "pbsserver",
                 "loginnode",
-                "nfsserver",
-                "addmpich"
+                "nfsserver"
             ]
         },
         "compute": {
@@ -64,7 +63,6 @@
                 "localuser",
                 "pbsclient",
                 "nfsclient",
-                "addmpich",
                 "cndefault"
             ]
         },
@@ -220,11 +218,6 @@
             ],
             "tag": "pbsclient",
             "sudo": false
-        },
-        {
-            "script": "addmpich.sh",
-            "sudo": true,
-            "tag": "addmpich"
         }
     ]
 }
