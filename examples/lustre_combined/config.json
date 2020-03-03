@@ -1,5 +1,5 @@
 {
-    "location": "southcentralus",
+    "location": "eastus",
     "resource_group": "variables.resource_group",
     "install_from": "headnode",
     "admin_user": "hpcadmin",
