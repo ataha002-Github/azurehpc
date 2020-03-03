@@ -1,5 +1,5 @@
 {
-    "location": "eastus",
+    "location": "westus2",
     "resource_group": "variables.resource_group",
     "install_from": "headnode",
     "admin_user": "hpcadmin",
